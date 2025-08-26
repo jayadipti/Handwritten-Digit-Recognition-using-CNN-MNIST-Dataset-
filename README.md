@@ -1,12 +1,13 @@
-Handwritten Digit Recognition using CNN (MNIST Dataset)
-Overview
+**Handwritten Digit Recognition using CNN (MNIST Dataset)**
+
+**Overview**
 
 This project implements a Convolutional Neural Network (CNN) to classify handwritten digits (0–9) from the MNIST dataset.
 It demonstrates the end-to-end deep learning pipeline – from data preprocessing to model training, evaluation, visualization, and custom image prediction.
 
 Achieved ~99% training accuracy and ~98% test accuracy.
 
- Key Features
+**Key Features**
 
 Trains a CNN model on 60,000 training images & tests on 10,000 images
 
@@ -18,7 +19,7 @@ Includes confusion matrix & classification report for detailed evaluation
 
 Beginner-friendly, easy to extend and deploy
 
-Tech Stack
+**Tech Stack**
 
 Language: Python 
 
@@ -31,7 +32,7 @@ Visualization: Matplotlib
 Evaluation: scikit-learn
 
 
-Dataset
+**Dataset**
 
 The project uses the MNIST handwritten digit dataset available on Kaggle:
 
@@ -43,14 +44,14 @@ mnist_test.csv → 10,000 testing images
 
 Each row = label + 784 pixel values (28×28 image flattened)
 
-Results
+**Results**
 
 Training Accuracy: ~99%
 
 Test Accuracy: ~98%
 
 
-Evaluation Metrics
+**Evaluation Metrics**
 
 Along with accuracy, the script outputs:
 
@@ -71,7 +72,7 @@ Performance Evaluation (Confusion Matrix, Reports)
 Custom Image Testing
 
 
-Future Enhancements
+**Future Enhancements**
 
 Build a Flask/FastAPI web app where users can draw digits online
 
